@@ -1,0 +1,1 @@
+bs_R.WriteKickersHTML("Kicker Custom Minimal3_3", "  <span id=\"Rollover_Kicker_Custom_Minimal3\"></span>  <img src=\"[VAR_bs_R.oSealRS.Stream]&R=0&x=Minimal3\" [VAR_bs_R.sImgCTX] alt=\"Norton Shopping Guarantee\"/>  ");
