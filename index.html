@@ -664,11 +664,9 @@
   <link rel="dns-prefetch preconnect" href="https://fonts.googleapis.com/" crossorigin="">
   <link rel="dns-prefetch preconnect" href="https://fonts.gstatic.com/" crossorigin="">
   <!-- <link rel="dns-prefetch preconnect" href="https://cdn.reamaze.com/" crossorigin=""> -->
-  <link rel="dns-prefetch preconnect" href="https://a.klaviyo.com/" crossorigin="">
   <link rel="dns-prefetch preconnect" href="https://rum-static.pingdom.net/" crossorigin="">
   <link rel="dns-prefetch preconnect" href="https://platform-api.sharethis.com/" crossorigin="">
   <link rel="dns-prefetch preconnect" href="https://ajax.googleapis.com/">
-  <link rel="dns-prefetch preconnect" href="https://static.klaviyo.com/" crossorigin="">
   <link rel="dns-prefetch preconnect" href="https://checkout-sdk.bigcommerce.com/" crossorigin="">
   <link rel="dns-prefetch preconnect" href="https://www.google-analytics.com/" crossorigin="">
   <link rel="dns-prefetch preconnect" href="https://code.jquery.com/" crossorigin="">
@@ -683,8 +681,6 @@
   <link rel="preload"
     href="Buy%20Tranquility%20Premium%20Overnight%20Disposable%20Absorbent%20Underwear_files/magiczoomplus.stencil.js"
     as="script">
-  <link rel="preload"
-    href="Buy%20Tranquility%20Premium%20Overnight%20Disposable%20Absorbent%20Underwear_files/klaviyo.js" as="script">
   <link rel="preload"
     href="Buy%20Tranquility%20Premium%20Overnight%20Disposable%20Absorbent%20Underwear_files/83e00f4e-d002-4507-93e8-dc7274721d43.js"
     as="script">
@@ -18621,7 +18617,6 @@
   <script type="text/javascript"
     src="Buy%20Tranquility%20Premium%20Overnight%20Disposable%20Absorbent%20Underwear_files/visitor_stencil.js">
   </script>
-  <script src="Buy%20Tranquility%20Premium%20Overnight%20Disposable%20Absorbent%20Underwear_files/klaviyo.js"></script>
   <script
     src="Buy%20Tranquility%20Premium%20Overnight%20Disposable%20Absorbent%20Underwear_files/magiczoomplus.stencil.js"
     defer="defer"></script>
@@ -20001,13 +19996,13 @@
     };
   </script>
   <script type="text/javascript">
-    if (!document.querySelector('script#reamazejs_script')) {
-      var rmzScript = document.createElement('script');
-      rmzScript.async = true;
-      rmzScript.id = 'reamazejs_script';
-      rmzScript.setAttribute('src', 'https://cdn.reamaze.com/assets/reamaze-loader.js');
-      document.head.appendChild(rmzScript);
-    }
+    // if (!document.querySelector('script#reamazejs_script')) {
+    //   var rmzScript = document.createElement('script');
+    //   rmzScript.async = true;
+    //   rmzScript.id = 'reamazejs_script';
+    //   rmzScript.setAttribute('src', 'https://cdn.reamaze.com/assets/reamaze-loader.js');
+    //   document.head.appendChild(rmzScript);
+    // }
     var _support = _support || {
       'ui': {},
       'user': {}
@@ -20202,41 +20197,6 @@
         }
       }
     }
-  </script>
-  <script>
-    var klaviyo = klaviyo || [];
-    klaviyo.init({
-      account: 'HBc93p',
-      platform: 'bigcommerce'
-    });
-    klaviyo.enable("backinstock", {
-      trigger: {
-        product_page_text: "Notify Me When Available",
-        product_page_class: "button",
-        product_page_text_align: "center",
-        product_page_margin: "0px",
-        replace_anchor: false
-      },
-      modal: {
-        headline: "{product_name}",
-        body_content: "Register to receive a notification when this item comes back in stock.",
-        email_field_label: "Email",
-        button_label: "Notify me when available",
-        subscription_success_label: "You're in! We'll let you know when it's back.",
-        footer_content: '',
-        additional_styles: "@import url('https://fonts.googleapis.com/css?family=Helvetica+Neue');",
-        drop_background_color: "#000",
-        background_color: "#fff",
-        text_color: "#222",
-        button_text_color: "#fff",
-        button_background_color: "#4787ed",
-        close_button_color: "#ccc",
-        error_background_color: "#fcd6d7",
-        error_text_color: "#C72E2F",
-        success_background_color: "#d3efcd",
-        success_text_color: "#1B9500"
-      }
-    });
   </script>
   <script src="Buy%20Tranquility%20Premium%20Overnight%20Disposable%20Absorbent%20Underwear_files/client" async=""
     defer="defer"></script>
